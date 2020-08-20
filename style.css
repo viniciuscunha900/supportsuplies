@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    
+    background: #013253;
+ 
+    width: 100%;
+}
+#corpo{
+    background: #002845;
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+    
+}
+header nav a{
+    color: white;
+}
+
+#home{
+    background: url(navioph.jpg);
+    width: auto;
+    height: 900px;
+    background-size: cover;
+    margin-top: -150px;
+ 
+} 
+.conteudo{
+    height: 900px;
+    width: auto;
+}
+header #home #topo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-top: 150px;
+}
+header #home #topo h3{
+    border-bottom: 10px solid #00AEEF;
+    width: 120px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+#conteudo-1{
+    background: #002845;
+}
+#corpo section #imagem-1{
+    margin-top: -100px;
+    padding-bottom: 40px;
+}
+#corpo #numbers {
+    color: white;
+    
+}
+#corpo #numbers h1{
+    font-family: 'IBM Plex Mono', monospace;
+}
+#caminhao-2 #texto{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+}
+#corpo #backcinza{
+    background: url(bonvoyage2.jpg);
+    background-size: cover;
+    margin-top: -150px;
+
+}
+  #corpo #backcinza #texto-cinza{
+    margin-top: 300px;
+} 
+#conteudo-5{
+    margin-top: 250px;
+}
+#conteudo-5 #conteudo #read a{
+    opacity: 0.3;
+    
+}
+#conteudo-5 #conteudo #read a:hover{
+    opacity: 1;
+    transition: 400ms;
+    text-decoration: none;
+}
+#conteudo-6 #container{
+    border: 8px solid #00AEEF;
+}
+
+
+
+
+
+
+/* footer */
+ footer{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    background-color: #042B49;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+footer #ondas{
+    margin: 0 auto;
+    /* width: 1000px; */
+}
+footer #texto-footer{
+    /* border: 1px solid white; */
+    width: 90%;
+    margin: 0 auto;
+    height: 55%;
+    padding: 40px;
+    color: white; 
+}
+footer #texto-footer #quadro-1{
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer #texto-footer #quadro-1 a{
+    color: white;
+}
+footer #texto-footer #quadro-1 .divisao{
+    /* border: 1px solid red; */
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: space-around;
+}
+footer #texto-footer #quadro-1 .divisao h3{
+    font-size: 36px;
+    line-height: 47px;
+}
+footer #texto-footer #quadro-1 .divisao p{
+    font-size: 18px;
+    line-height: 23px;
+}
+footer #texto-footer #quadro-2{
+    /* border: 1px solid yellow; */
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer #texto-footer #quadro-2 div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+footer #texto-footer #quadro-2 div span{
+    margin-right: 250px;
+}
+.waves{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;  
+    
+}
+.wave-1{
+    animation: movewave1 3s ease-in-out  infinite alternate;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+@keyframes movewave1 {
+    from {
+        transform: translateX(-200px);
+        
+    }
+}
+
+.wave-2{
+    animation: movewave2 3s 1.2s ease-in-out  infinite alternate;
+}
+@keyframes movewave2 {
+    from{
+        transform: translateX(-180px);
+        
+    }
+}
+
+.wave-3{
+    animation: movewave3 3s 0.7s ease-in-out  infinite alternate;
+}
+@keyframes movewave3 {
+    from{
+        /* width: 300%; */
+        transform: translateX(0px);
+        
+    }
+}
+
+
+
+
+
+
